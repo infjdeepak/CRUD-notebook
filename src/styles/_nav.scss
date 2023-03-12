@@ -1,0 +1,23 @@
+nav {
+  min-height: 10vh;
+  width: 90%;
+  margin: auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  a {
+    padding: 0.2rem 1rem;
+    margin-left: 2rem;
+    &:hover {
+      border-bottom: 5px solid rgb(196, 115, 161);
+    }
+  }
+  a.active {
+    border-bottom: 5px solid rgb(196, 115, 161);
+  }
+}

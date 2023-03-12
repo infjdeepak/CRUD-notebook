@@ -1,0 +1,60 @@
+$header1: 4rem;
+$header2: 3.5rem;
+$header3: 3rem;
+$header4: 2.5rem;
+$text: 2.5rem;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  // background: #f6f6f7;
+}
+h1 {
+  font-size: $header1;
+}
+h2 {
+  font-size: $header2;
+}
+h3 {
+  font-size: $header3;
+}
+h4,
+h5 {
+  font-size: $header4;
+}
+p,
+a,
+button,
+input,
+span,
+label,
+textarea {
+  font-size: $text;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.wrapper {
+  width: 90%;
+  margin: auto;
+  padding: 2rem 0;
+}
+.alert-message {
+  background: #30a6b6;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+}

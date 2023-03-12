@@ -1,0 +1,13 @@
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 53%;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 43%;
+  }
+  .addnote-wrapper {
+    flex-direction: column;
+  }
+}
